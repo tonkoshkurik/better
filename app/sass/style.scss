@@ -1,0 +1,76 @@
+@import '../../bower_components/bootstrap-material-design/sass/bootstrap-material-design.scss';
+@import '../../bower_components/bootstrap-material-design/sass/ripples.scss';
+  $primary-color-dark:   #512DA8;
+  $primary-color:        #673AB7;
+  $primary-color-light:  #D1C4E9;
+  $primary-color-text:   #FFFFFF;
+  $accent-color:         #8BC34A;
+  $primary-text-color:   #212121;
+  $secondary-text-color: #727272;
+  $divider-color:        #B6B6B6;
+
+
+body {
+	color: $primary-color;
+	background-color: $primary-color-light;
+}
+header {
+	height: 60px;
+	background-color: $primary-color-dark;
+	color: #fff;
+}
+.logo {
+	max-width: 280px;
+	float: left;
+}
+.logo>svg{
+	float: left;
+	padding-top: 5px;
+}
+.logo>p {
+	padding: 20px;
+	margin-left: 50px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.mail {
+	margin-left: 70px;
+	padding-top: 20px;
+	position: absolute;
+	right: 50px;
+}
+main {
+	margin-top: 25px;
+}
+.form-horizontal {
+	padding:15px;
+}
+.material-icons {
+	float: left;
+}
+.card-raised {
+//    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+    top: -18px;
+}
+footer {
+	margin-top: 150px;
+}
+.no-spam {
+	padding-top:15px;
+	color: $primary-color-light;
+}
+.toolkit {
+	color: $primary-text-color;
+}
+.main-text {
+	color: $primary-text-color;
+}
+
+@media (max-width:992px) { 
+	.affix {
+		position: relative;
+		margin-top: 20px;
+	}
+}
